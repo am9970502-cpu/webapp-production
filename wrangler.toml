@@ -1,0 +1,13 @@
+name = "webapp"
+compatibility_date = "2025-11-25"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "webapp-production"
+database_id = ""
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "webapp-videos"
